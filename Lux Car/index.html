@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" >
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Platinum Ride</title>
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <!-- Nav Bar -->
+        <div class="nav_header">
+          <div class="nav_logo">
+            <img src="assets/PlatinumDrive.png" alt="logo">
+          </div>
+          <div class="nav_menu_btn" id="menu-btn">
+            <i class='bx bx-menu' ></i>
+          </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#cars">Car</a></li>
+          <li><a href="#rent">Rent</a></li>
+          <li><a href="#abt">About </a></li>
+          <li><a href="#support">Contact</a></li>
+          <li class="nav_link_btn"><button class="btn">Sign Up</button></li>
+          <li class="nav_link_btn"><button class="btn">Sign In</button></li>
+        </ul>
+        <div class="nav_btns">
+          <button class="btn btn_primary">Sign Up</button>
+          <button class="btn btn_secondary">Sign In</button>
+        </div>
+      </nav>
+
+      <!-- Home Page -->
+      <div class="section_container header_container" id="home">
+        <div class="header_image">
+          <img src="assets/ferrari01.png" alt="header" />
+        </div>
+        <div class="header_content">
+          <h1>Drive in <span>Luxury</span>, Arrive in Style</h1>
+          <p>Discover premium car rentals tailored for your journey. Explore a wide range of high-end vehicles and exclusive offers.</p>
+          <form action="/">
+            <div class="input_group">
+              <label for="start"> Pick Up Date</label>
+              <input type="text" name ="start" id ="start" placeholder=" ">
+            </div>
+            <div class="input_group">
+              <label for="stop"> Return Date</label>
+              <input type="text" name ="stop" id ="stop" placeholder=" ">
+            </div>
+            <div class="input_group">
+              <label for="location">Location</label>
+              <input type="text" name ="location" id ="location" placeholder=" ">
+            </div>
+            <button class="btn">
+              <i class='bx bx-search'></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <!-- Car Seciton-->
+    <section class="cars" id="cars">
+      <h1>Top Selections</h1>
+      <div class="cars_collections">
+        <div class="car_item">
+          <img src="assets/sf90_02.jpeg" alt="img">
+            <div class="car_info">
+              <h2>Ferrari SF90</h2>
+              <p>$2000/Day</p>
+            </div>
+        </div>
+        <div class="car_item">
+          <img src="assets/gt3rs.jpeg" alt="img">
+            <div class="car_info">
+              <h2>Porsche GT3 RS</h2>
+              <p>$1500/Day</p>
+            </div>
+        </div>
+        <div class="car_item">
+          <img src="assets/maybachS.avif" alt="img">
+            <div class="car_info">
+              <h2>Maybach S-Class</h2>
+              <p>$1250/Day</p>
+            </div>
+        </div>
+        <div class="car_item">
+          <img src="assets/amv12_01.jpeg" alt="img">
+            <div class="car_info">
+              <h2>Aston Martin Vantage</h2>
+              <p>$1000/Day</p>
+            </div>
+        </div>
+        <div class="car_item">
+          <img src="assets/rangerover.avif" alt="img">
+            <div class="car_info">
+              <h2>Range Rover Velar 2024 </h2>
+              <p>$750/Day</p>
+            </div>
+        </div>
+        <div class="car_item">
+          <img src="assets/huracan.webp" alt="img">
+            <div class="car_info">
+              <h2>Lamborghini Huracan EVO Spider</h2>
+              <p>$1500/Day</p>
+            </div>
+        </div>
+      </div>
+      <a href="cars_main.html" class="btn"> View All</a>
+    </section>
+
+    <!-- Steps -->
+    <section class="section_container steps_container" id="rent">
+      <p class="section_subheader">HOW IT WORKS</p>
+
+      <div class="steps_grid">
+        <div class="steps_card">
+          <span><i class='bx bx-map' ></i></span>
+          <h4>Choose a location</h4>
+          <p>
+            Select your desired rental location from our extensive network of
+            car rental spots.
+          </p>
+        </div>
+        <div class="steps_card">
+          <span><i class='bx bx-calendar' ></i></span>
+          <h4>Pick-up date</h4>
+          <p>
+            Specify the date and time you wish to pick up your car with flexible
+            scheduling options.
+          </p>
+        </div>
+        <div class="steps_card">
+          <span><i class='bx bxs-car'></i></span>
+          <h4>Book your car</h4>
+          <p>
+            Browse through our wide range of vehicles and choose the one that
+            best suits your needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="abt" id="abt">
+      <div class="about-container">
+        <h1>About US</h1>
+        <p>At Platinum Rides, we redefine luxury car rentals by delivering an unparalleled experience that goes beyond transportation. Our commitment to quality ensures that every vehicle in our fleet is meticulously maintained, combining cutting-edge performance, timeless elegance, and supreme comfort. Whether you're planning a business trip, celebrating a special milestone, or simply indulging in the thrill of driving a world-class vehicle, we make it our priority to exceed your expectations.​</p>
+        <h2>Mission</h2>
+        <p>Our mission and focus is on convenience, speed, and excellence to ensure that your special occasion is elevated by the thrill of driving a world-class car.​</p>
+      </div>
+    </section>
+
+    <!-- Service -->
+
+    <section class="section_container service_container" id="service">
+      <div class="service_image">
+        <img src="assets/puzzle.jpeg" alt="service" />
+      </div>
+      <div class="service_content">
+        <p class="section_subheader">BEST SERVICES</p>
+        <h2 class="section_header">
+          Feel the best experience with our rental deals
+        </h2>
+        <ul class="service_list">
+          <li>
+            <span><i class='bx bxs-purchase-tag' ></i></span>
+            <div>
+              <h4>Experience True Luxury</h4>
+              <p>From iconic sports cars to high-end SUVs, our fleet is curated to exceed your expectations. Drive the car of your dreams and turn every journey into a statement.</p>
+            </div>
+          </li>
+          <li>
+            <span><i class='bx bxs-wallet' ></i></span>
+            <div>
+              <h4>Exclusivity Guaranteed</h4>
+              <p>We offer competitive pricing for luxury vehicles, ensuring you receive unparalleled value without compromising on sophistication or performance.</p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-customer-service-fill"></i></span>
+            <div>
+              <h4>Support 24/7</h4>
+              <p>Our dedicated luxury concierge team is available around the clock to provide personalized assistance, ensuring your rental experience is seamless and exceptional.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="support" id = "support">
+      <div class="form-container">
+          <h2>SEND US A MESSAGE</h2>
+          <form>
+              <input type="text" placeholder="Name" class="form-input" required>
+              <input type="email" placeholder="E-mail" class="form-input" required>
+              <input type="tel" placeholder="Phone" class="form-input">
+              <textarea placeholder="Your Message" class="form-textarea" required></textarea>
+              <button type="submit" class="form-button">SEND</button>
+          </form>
+      </div>
+    </section>
+
+    <!-- banner -->
+    <section class = "banner_container">
+      <div class="banner_wrapper">
+        <img src="assets/ferrari_logo.png" alt="banner">
+        <img src="assets/lambo_logo.png" alt="banner">
+        <img src="assets/jaguar_logo.png" alt="banner">
+        <img src="assets/landrover_logo.png" alt="banner">
+        <img src="assets/bentley_logo.png" alt="banner">
+        <img src="assets/porsche_logo.png" alt="banner">
+        <img src="assets/mercedes_logo.png" alt="banner">
+        <img src="assets/bmw_logo.png" alt="banner">
+      </div>
+    </section>
+
+
+
+
+    <footer>
+      <div class="section_container footer_bar">
+        <h4>Platinum Rides </h4>
+        <p>Copyright © 2024 Platinum Rides. All rights reserved.</p>
+        <ul class="footer_socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-google-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
